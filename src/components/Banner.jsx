@@ -2,7 +2,7 @@ import React from "react";
 
 function Banner() {
   return (
-    <section className=" bg-[#07142b] text-white py-16 block">
+    <section className=" bg-[#07142b] text-white py-16 block mb-20">
       
       <div className="container grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="flex items-center mb-5">
