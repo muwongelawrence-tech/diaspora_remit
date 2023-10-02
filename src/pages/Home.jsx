@@ -4,6 +4,8 @@ import Banner from "../components/Banner";
 import Footer from "../components/Footer";
 import Payments from "../components/Payments";
 import Checkout from "../components/Checkout";
+import Analytics from "../components/Analytics";
+import FeedBack from "../components/FeedBack";
 
 function Home() {
   return (
@@ -11,8 +13,9 @@ function Home() {
       <Header />
       <Banner />
       <Payments/>
-
       <Checkout/>
+      <FeedBack/>
+      <Analytics/>
       <Footer />
 
       {/* <div className="flex items-center justify-center p-5 mt-20 ">
