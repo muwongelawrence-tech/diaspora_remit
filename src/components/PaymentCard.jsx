@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function PaymentCard({  icon, title, description }) {
   return (
     <div className={`flex flex-col items-center md:items-start justify-center md:justify-start `}>

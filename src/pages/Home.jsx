@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Banner from "../components/Banner";
 import Footer from "../components/Footer";
 import Payments from "../components/Payments";
+import Checkout from "../components/Checkout";
 
 function Home() {
   return (
@@ -10,6 +11,8 @@ function Home() {
       <Header />
       <Banner />
       <Payments/>
+
+      <Checkout/>
       <Footer />
 
       {/* <div className="flex items-center justify-center p-5 mt-20 ">
