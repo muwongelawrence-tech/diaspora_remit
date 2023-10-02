@@ -8,14 +8,15 @@ function Header() {
   const toggleExpanded = () => {
     setExpanded(!expanded);
   };
+
   return (
-    <header>l
+    <header>
       <nav
-        className={`bg-black py-4 px-4 flex items-center justify-between fixed top-0 z-50 w-full`}
+        className={`bg-[#07142b] px-4 flex items-center justify-between fixed top-0 z-50 w-full`}
       >
-        <a className="text-white text-2xl font-semibold" href="/">
-          <img src="images/logo.svg" alt="Logo" />
-        </a>
+        <div className=" flex items-center justify-center w-32 h-14">
+          <img src="images/logo2.png" alt="Logo" />
+        </div>
 
         <button
           className="md:hidden text-white text-xl"
@@ -30,22 +31,22 @@ function Header() {
           }`}
         >
           <li>
-            <a className="text-white" href="#">
+            <a className="text-gray-300 hover:text-white" href="#">
               Hosting
             </a>
           </li>
           <li>
-            <a className="text-white" href="#">
+            <a className="text-gray-300 hover:text-white" href="#">
               VPS
             </a>
           </li>
           <li>
-            <a className="text-white" href="#">
+            <a className="text-gray-300 hover:text-white" href="#">
               Domain
             </a>
           </li>
           <li>
-            <a className="text-white" href="#">
+            <a className="text-gray-300 hover:text-white" href="#">
               Pricing
             </a>
           </li>
