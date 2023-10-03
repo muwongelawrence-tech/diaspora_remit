@@ -5,6 +5,7 @@ import { HiChevronRight } from "react-icons/hi";
 import FeedbackCard from "./FeedbackCard";
 
 function FeedBack() {
+  
   const testimonials = [
     {
       testimonial:
@@ -47,7 +48,7 @@ function FeedBack() {
       <Title className="text-gray-100" title={"Client Feedback and Reviews"} />
 
       <div className="mt-12 rounded-[20px]">
-        <div className={` bg-gray-700 rounded-2xl min-h-[300px]`}>
+        <div className={` bg-[#0a2244] rounded-2xl h-[200px]`}>
           <div className="flex flex-col items-center justify-center pt-10">
             <p className="text-2xl text-gray-200">What others say</p>
 
@@ -58,7 +59,7 @@ function FeedBack() {
         <div className="flex items-center justify-between space-x-3 p-2 -mt-20 ">
           <div
             onClick={slideLeft}
-            className="bg-gray-900 text-gray-600 rounded-full p-1 cursor-pointer hidden md:inline-flex"
+            className="bg-[#0a2244] rounded-full p-1 cursor-pointer hidden md:inline-flex"
           >
             <HiChevronLeft className="h-10 w-10 text-white" />
           </div>
@@ -80,7 +81,7 @@ function FeedBack() {
 
           <div
             onClick={slideRight}
-            className="bg-gray-900 text-gray-600 rounded-full p-1 cursor-pointer hidden md:inline-flex "
+            className="bg-[#0a2244] rounded-full p-1 cursor-pointer hidden md:inline-flex "
           >
             <HiChevronRight className="h-10 w-10 text-white" />
           </div>
