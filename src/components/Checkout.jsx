@@ -9,7 +9,7 @@ function Checkout() {
           <div className="h-[550px] w-full cursor-pointer">
             <img
               className="object-contain w-full h-full  -rotate-12 hover:rotate-0 transition-all transform ease-in-out duration-300"
-              src="images/D-Phone02.png"
+              src="images/DPHONE RIGHT-1.png"
               alt="Banner"
             />
           </div>

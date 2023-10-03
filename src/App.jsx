@@ -12,15 +12,17 @@ const Loadable = (Component) => (props) => {
 };
 
 const Home = Loadable(lazy(() => import("./pages/Home")));
+const CommingSoon = Loadable(lazy(() => import("./pages/ComingSoon")));
 const NotFound = Loadable(lazy(() => import("./pages/NotFound")));
 
 function App() {
-  return (
+  return ( 
     <div className="w-full h-screen">
       <Toaster position="top-right" />
       <>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" exact element={<Home />} />
+          <Route path="/coming" exact element={<CommingSoon/>} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </>

@@ -7,12 +7,14 @@ import Checkout from "../components/Checkout";
 import Analytics from "../components/Analytics";
 import FeedBack from "../components/FeedBack";
 import Blogs from "../components/Blogs";
+import DigitalPayment from "../components/DigitalPayment";
 
 function Home() {
   return (
     <div className="h-screen overflow-x-hidden overflow-y-auto">
       <Header />
       <Banner />
+      <DigitalPayment/>
       <Payments />
       <Checkout />
       <FeedBack />
