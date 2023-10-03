@@ -26,31 +26,15 @@ function Header() {
           </button>
         </div>
 
-        <div className={`flex flex-col items-center justify-center md:flex-row md:justify-end space-x-4 space-y-3 md:space-y-0  w-full p-3 ${expanded ? "block" : "hidden"} `}>
-          <p className="text-gray-300 hover:text-white">Home</p>
-          <p className="text-gray-300 hover:text-white">About</p>
-          <p className="text-gray-300 hover:text-white">Contact</p>
-        </div>
-
-        {/* <ul
-          className={`block md:flex items-center justify-center space-x-4  ${expanded ? "block" : "hidden"}`}
+        <div
+          className={`block md:flex flex-col items-start justify-start md:flex-row md:justify-end space-x-4 space-y-3 md:space-y-0  w-full p-3 ${
+            expanded ? "block" : "hidden"
+          } `}
         >
-          <li>
-            <a className="text-gray-300 hover:text-white" href="#">
-              Home
-            </a>
-          </li>
-          <li>
-            <a className="text-gray-300 hover:text-white" href="#">
-              About
-            </a>
-          </li>
-          <li>
-            <a className="text-gray-300 hover:text-white" href="#">
-              Contact
-            </a>
-          </li>
-        </ul> */}
+          <p className="text-gray-300 hover:text-white text-center ">Home</p>
+          <p className="text-gray-300 hover:text-white text-center ">About</p>
+          <p className="text-gray-300 hover:text-white text-center ">Contact</p>
+        </div>
       </nav>
     </header>
   );
