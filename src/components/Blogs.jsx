@@ -33,7 +33,7 @@ function Blogs() {
 
       <div className="flex items-center justify-center w-full">
         <div className="mt-10 py-4 px-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 items-center justify-center">
-          {blogs.map(({ id, imageUrl, title, description }) => (
+          { blogs.map(({ id, imageUrl, title, description }) => (
             <BlogCard
               key={id}
               imageUrl={imageUrl}

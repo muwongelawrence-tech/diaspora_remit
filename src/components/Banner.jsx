@@ -2,7 +2,7 @@ import React from "react";
 
 function Banner() {
   return (
-    <section className=" bg-[#07142b] text-white py-16 block mb-20">
+    <section className=" bg-[#07142b] text-white pt-10 block mb-20">
       
       <div className="container grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="flex items-center mb-5">
@@ -22,8 +22,8 @@ function Banner() {
         <div className="flex items-center justify-center w-full h-full">
           <div className="h-[550px] w-full cursor-pointer">
             <img
-              className="object-contain w-full h-full mt-28 rotate-12 hover:rotate-0 transition-all transform ease-in-out duration-300"
-              src="images/digipay-payment-app-1.png"
+              className="object-contain w-full h-full  mt-28  rotate-12 hover:rotate-0 transition-all transform ease-in-out duration-300"
+              src="images/D-Phone01.png"
               alt="Banner"
             />
           </div>

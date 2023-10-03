@@ -22,12 +22,6 @@ function Home() {
       {/* 
       <div className="flex items-center justify-center p-5 mt-20 ">
         <Banner />
-        <Payments />
-        <Checkout />
-        <FeedBack />
-        <Analytics />
-        <Blogs />
-        <Footer />
       </div> */}
     </div>
   );

@@ -72,7 +72,7 @@ function Payments() {
         <div className="flex-1 h-[600px] md:hidden lg:inline-flex">
           <img
             className="object-contain w-full h-full"
-            src="images/digipay-payment.png"
+            src="images/D-Phone03.png"
             alt="Banner"
           />
         </div>

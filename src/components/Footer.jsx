@@ -35,25 +35,25 @@ function Footer() {
         <ul className="flex space-x-3 cursor-pointer justify-self-center md:justify-self-start">
           <li className="flex items-center justify-center p-1 border border-[#0a2244] rounded-md hover:bg-[#0a2244]">
             <a href="https://facebook.com">
-              <FacebookIcon />
+              <FacebookIcon className="text-[#f2a908]" />
             </a>
           </li>
 
           <li className="flex items-center justify-center p-1 border border-[#0a2244] rounded-md hover:bg-[#0a2244]">
             <a href="https://twitter.com">
-              <TwitterIcon />
+              <TwitterIcon className="text-[#f2a908]"  />
             </a>
           </li>
 
           <li className="flex items-center justify-center p-1 border border-[#0a2244] rounded-md hover:bg-[#0a2244]">
             <a href="https://instagram.com">
-              <InstagramIcon />
+              <InstagramIcon className="text-[#f2a908]" />
             </a>
           </li>
 
           <li className="flex items-center justify-center p-1 border border-[#0a2244] rounded-md hover:bg-[#0a2244]">
             <a href="https://youtube.com">
-              <YouTubeIcon />
+              <YouTubeIcon className="text-[#f2a908]"/>
             </a>
           </li>
         </ul>
@@ -83,20 +83,20 @@ function Footer() {
         <h5 className="font-bold">Contacts</h5>
         <p className=" flex items-center space-x-2">
           <div className="flex items-center justify-center p-3 bg-[#0a2244] rounded-full">
-            <HiOutlinePhone className="w-4 h-4 text-white" />
+            <HiOutlinePhone className="w-4 h-4 text-[#f2a908]" />
           </div>
           <span>+1587 988 1614</span>
         </p>
         <p className=" flex items-center space-x-2">
           <div className="flex items-center justify-center p-3 bg-[#0a2244] rounded-full">
-            <HiOutlinePhoneOutgoing className="w-4 h-4 text-white" />
+            <HiOutlinePhoneOutgoing className="w-4 h-4 text-[#f2a908]" />
           </div>
           <span>+1780 655 1614</span>
         </p>
 
         <p className=" flex items-center space-x-2">
           <div className="flex items-center justify-center p-3 bg-[#0a2244] rounded-full">
-            <HiOutlineMail className="w-4 h-4 text-white" />
+            <HiOutlineMail className="w-4 h-4 text-[#f2a908]" />
           </div>
           <span>info@diasporaremit.com</span>
         </p>

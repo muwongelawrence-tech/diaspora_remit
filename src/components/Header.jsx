@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { HiMenu } from "react-icons/hi";
 
 function Header() {
+  
   const [expanded, setExpanded] = useState(false);
 
   const toggleExpanded = () => {
@@ -31,9 +32,9 @@ function Header() {
             expanded ? "block" : "hidden"
           } `}
         >
-          <p className="text-gray-300 hover:text-white text-center ">Home</p>
-          <p className="text-gray-300 hover:text-white text-center ">About</p>
-          <p className="text-gray-300 hover:text-white text-center ">Contact</p>
+          <p className="text-gray-300 hover:text-[#f2a908] text-center  cursor-pointer">Home</p>
+          <p className="text-gray-300 hover:text-[#f2a908] text-center  cursor-pointer">About</p>
+          <p className="text-gray-300 hover:text-[#f2a908] text-center cursor-pointer ">Contact</p>
         </div>
       </nav>
     </header>
