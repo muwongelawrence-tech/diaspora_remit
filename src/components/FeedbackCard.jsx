@@ -2,10 +2,17 @@ import React from "react";
 
 function FeedbackCard({ testimonial, name, designation, company, image }) {
   return (
-    <div className="bg-[#EEFFFA] my-3 py-8 px-6 rounded-2xl inline-block w-full md:w-96 mr-4">
-      <div className="w-full">
-        <p className="text-[#07142b] font-bold text-[48px]">"</p>
-        <p className="text-[#07142b]  text-left  line-clamp-3 max-w-full">{testimonial}</p>
+    <div
+      className={` bg-[#EEFFFA]  mr-5  w-full md:max-w-[360px] py-8 px-6 rounded-2xl inline-block  shadow-xl `}
+    >
+      <div className="flex flex-col py-2 px-3 pt-4 h-full">
+        <div className="flex-1">
+          <h4 className="text-4xl uppercase font-semibold">"</h4>
+
+          <p className="text-base text-gray-500 whitespace-normal font-medium mt-2 line-clamp-3">
+            {testimonial}
+          </p>
+        </div>
       </div>
 
       <div className="mt-1">
