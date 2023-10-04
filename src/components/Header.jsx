@@ -34,7 +34,7 @@ function Header() {
           } `}
         >
           <Link to="/" className="text-gray-300 hover:text-[#f2a908] text-center  cursor-pointer">Home</Link>
-          <Link to="/coming" className="text-gray-300 hover:text-[#f2a908] text-center  cursor-pointer">About</Link>
+          <Link to="/about" className="text-gray-300 hover:text-[#f2a908] text-center  cursor-pointer">About</Link>
           < Link to="/coming" className="text-gray-300 hover:text-[#f2a908] text-center cursor-pointer ">Contact</Link>
         </div>
       </nav>
