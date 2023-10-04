@@ -54,4 +54,27 @@
   .icon {
     @apply w-5 md:w-8 h-5 md:h-8;
   }
+
+
+  .animate .transform {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  
+  .animate p {
+    animation: slide-up 1s ease-in-out;
+  }
+  
+  @keyframes slide-up {
+    0% {
+      transform: translateY(4rem);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+
 }
