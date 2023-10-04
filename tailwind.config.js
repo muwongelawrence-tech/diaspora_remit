@@ -4,10 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        seconds_bg: "url('/public/images/bg2.jpg')",
-        logo_bg: "url('/public/images/logo.png')",
-        radiography_bg: "url('/public/images/bg.jpg')"
-
+        diaspora_bg: "url('/public/images/diasporabackground.jpg')",
       },
 
       colors : {

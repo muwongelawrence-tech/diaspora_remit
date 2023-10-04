@@ -3,11 +3,36 @@ import React, { useEffect, useState } from "react";
 function Title({ title, className }) {
 
   const [animate, setAnimate] = useState(false);
-
+ 
+  // on initial Loading....
   useEffect(() => {
       setTimeout(() => {
         setAnimate(true);
       }, 100);
+  }, []);
+
+  // Animating on scrolling ...
+  useEffect(() => {
+    // Function to handle the scroll event
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      const triggerOffset = 2; // Adjust this offset as needed
+
+      // Check if the user has scrolled past the trigger point
+      if (scrollY > triggerOffset) {
+        setAnimate(true);
+      } else {
+        setAnimate(false);
+      }
+    };
+
+    // Attach the scroll event listener
+    window.addEventListener('scroll', handleScroll);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
   }, []);
 
   return (

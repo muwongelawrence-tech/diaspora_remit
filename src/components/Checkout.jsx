@@ -22,7 +22,7 @@ function Checkout() {
             <div className="w-4 h-4 bg-[#07142b] border-[5px] border-[#f2a908] rounded-full my-2 mb-5" />
             <div>
               <h2 className="text-2xl my-2 text-[#161616]">Download The App</h2>
-              <p className="max-w-sm md:max-w-md text-[#161616]">
+              <p className="max-w-xs md:max-w-md text-[#161616]">
                 Lorem ipsum dolor sit amet consectetuer adipiscing elit. Aenean
                 commodo ligula eget dolor. Aenean massa cum sociis.
               </p>
@@ -33,7 +33,7 @@ function Checkout() {
             <div className="w-4 h-4 bg-[#07142b] border-[5px] border-[#f2a908] rounded-full my-2 mb-5" />
             <div>
               <h2 className="text-2xl my-2 text-[#161616]">Create an Account</h2>
-              <p className="max-w-sm md:max-w-md text-[#161616]">
+              <p className="max-w-xs md:max-w-md text-[#161616]">
                 Lorem ipsum dolor sit amet consectetuer adipiscing elit. Aenean
                 commodo ligula eget dolor. Aenean massa cum sociis.
               </p>
@@ -44,7 +44,7 @@ function Checkout() {
             <div className="w-4 h-4 bg-[#07142b] border-[5px] border-[#f2a908] rounded-full my-2 mb-5" />
             <div>
               <h2 className="text-2xl my-2 text-[#161616]">Verify & Start Transaction</h2>
-              <p className="max-w-sm md:max-w-md text-[#161616]">
+              <p className="max-w-xs md:max-w-md text-[#161616]">
                 Lorem ipsum dolor sit amet consectetuer adipiscing elit. Aenean
                 commodo ligula eget dolor. Aenean massa cum sociis.
               </p>

@@ -8,6 +8,7 @@ import Analytics from "../components/Analytics";
 import FeedBack from "../components/FeedBack";
 import Blogs from "../components/Blogs";
 import DigitalPayment from "../components/DigitalPayment";
+import PlaystoreBanner from "../components/PlaystoreBanner";
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
       <Checkout />
       <FeedBack />
       <Analytics />
+      <PlaystoreBanner/>
       <Blogs />
       <Footer />
       {/* 
