@@ -2,25 +2,27 @@ import React from "react";
 
 function VisionComponent() {
   return (
-    <section className=" text-white pt-16 block mb-20 ">
+    <section className=" text-white pt-16 block mb-20">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-        <div className="relative w-full grid grid-cols-1 lg:grid-cols-2 px-3 ">
-          <div className="h-full cursor-pointer justify-start ">
-            <img
-              className="object-cover w-full h-full"
-              src="images/blog2.png"
-              alt="digital-Payment"
-            />
-          </div>
+        <div>
+          <div className="relative w-full grid grid-cols-1 lg:grid-cols-2 px-3 ">
+            <div className="h-full cursor-pointer justify-start">
+              <img
+                className="object-cover w-full  h-full lg:h-[500px]"
+                src="images/blog2.png"
+                alt="digital-Payment"
+              />
+            </div>
 
-          <div className="h-[230px] w-full flex justify-end md:justify-center lg:justify-end bg-[#07142b] py-2 px-3 rounded-2xl">
-            <div className="w-80 p-3">
-              <p className="mb-3">
-                “Embracing the power of technology, our payment gateway serves
-                as the bridge that connects businesses and their customers.”
-              </p>
+            <div className="h-[210px] w-full flex justify-end md:justify-center lg:justify-end bg-[#07142b] py-3 px-3 rounded-2xl">
+              <div className="w-80 p-3">
+                <p className="mb-3">
+                  “Embracing the power of technology, our payment gateway serves
+                  as the bridge that connects businesses and their customers.”
+                </p>
 
-              <h3>Muwonge Lawrence - CEO Digipay</h3>
+                <h3>Muwonge Lawrence - CEO Diaspora</h3>
+              </div>
             </div>
           </div>
         </div>
@@ -29,10 +31,10 @@ function VisionComponent() {
           <div
             className={`flex items-center  space-x-5 mt-6 bg-yellow-100 py-3 px-4 rounded-lg`}
           >
-            <div className="flex items-center justify-center w-16 h-16 bg-[#f2a908] rounded-md my-2 mb-5">
+            <div className="flex items-center justify-center w-12 md:w-14  h-12 md:h-14 bg-[#f2a908] rounded-md my-2 mb-5">
               <img
-                className="w-full h-full object-cover"
-                src="/images/vision.png"
+                className=""
+                src="/images/Visionicon.png"
                 alt={`vision`}
               />
             </div>
@@ -49,12 +51,8 @@ function VisionComponent() {
           <div
             className={`flex items-center  space-x-5 mt-6 bg-yellow-100 py-3 px-4 max-w-full rounded-lg`}
           >
-            <div className="flex items-center justify-center w-16 h-16 bg-[#f2a908] rounded-md my-2 mb-5">
-              <img
-                className="w-full h-full object-cover"
-                src="/images/mission.png"
-                alt={`mission`}
-              />
+            <div className="flex items-center justify-center  w-12 md:w-14  h-12 md:h-14 bg-[#f2a908] rounded-md">
+              <img className="" src="/images/MissionIcon.png" alt={`mission`} />
             </div>
             <div>
               <h2 className="text-2xl my-2 text-[#161616]">Diaspora Mission</h2>
