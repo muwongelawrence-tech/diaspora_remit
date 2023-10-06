@@ -5,6 +5,7 @@ import { HiChevronRight } from "react-icons/hi";
 import FeedbackCard from "./FeedbackCard";
 
 function FeedBack() {
+  
   const testimonials = [
     {
       testimonial:
@@ -27,7 +28,7 @@ function FeedBack() {
         "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Enoch hall Asanda",
       designation: "Mlops Engineer",
-      company: "ACE",
+      company: "kodo",
       image: "/images/hall.jpeg",
     },
     {
@@ -51,7 +52,7 @@ function FeedBack() {
         "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Enoch hall Asanda",
       designation: "Mlops Engineer",
-      company: "ACE",
+      company: "Kodo",
       image: "/images/hall.jpeg",
     },
   ];

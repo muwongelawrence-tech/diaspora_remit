@@ -13,6 +13,7 @@ const Loadable = (Component) => (props) => {
 
 const Home = Loadable(lazy(() => import("./pages/Home")));
 const About = Loadable(lazy(() => import("./pages/About")));
+const Contact = Loadable(lazy(() => import("./pages/Contact")));
 const CommingSoon = Loadable(lazy(() => import("./pages/ComingSoon")));
 const NotFound = Loadable(lazy(() => import("./pages/NotFound")));
 
@@ -24,6 +25,7 @@ function App() {
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/about" exact element={<About />} />
+          <Route path="/contact" exact element={<Contact />} />
           <Route path="/coming" exact element={<CommingSoon />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
