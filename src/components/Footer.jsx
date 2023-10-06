@@ -1,12 +1,13 @@
 import React from "react";
 import FacebookIcon from "@material-ui/icons/Facebook";
-import TwitterIcon from "@material-ui/icons/Twitter";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import YouTubeIcon from "@material-ui/icons/YouTube";
+import { FaXTwitter } from "react-icons/fa6";
 import { HiOutlinePhone } from "react-icons/hi";
 import { HiOutlinePhoneOutgoing, HiOutlineMail } from "react-icons/hi";
 
 function Footer() {
+
   let now = new Date();
   let date = now.getDate();
   let month = now.getMonth() + 1;
@@ -39,9 +40,9 @@ function Footer() {
             </a>
           </li>
 
-          <li className="flex items-center justify-center p-1 border border-[#0a2244] rounded-md hover:bg-[#0a2244]">
+          <li className="flex items-center justify-center p-2 border border-[#0a2244] rounded-md hover:bg-[#0a2244]">
             <a href="https://twitter.com">
-              <TwitterIcon className="text-[#f2a908]"  />
+              <FaXTwitter className="text-[#f2a908]"/>
             </a>
           </li>
 
