@@ -19,7 +19,7 @@ function Home() {
       <Payments />
       <Checkout />
       <FeedBack />
-      <Analytics />
+      {/* <Analytics /> */}
       <PlaystoreBanner/>
       <Blogs />
       <Footer />

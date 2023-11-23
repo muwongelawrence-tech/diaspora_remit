@@ -3,9 +3,10 @@ import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
 
 function AnalyticsCard({ value, description, extension }) {
-  const [counterOn, setCounterOn] = useState();
+
+  const [counterOn, setCounterOn] = useState(false);
   const [ countupTo , setCountupTo] = useState(200);
-;
+
 
   return (
     <div className="w-full flex flex-col items-center justify-center">
