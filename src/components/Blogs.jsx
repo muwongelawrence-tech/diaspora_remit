@@ -10,7 +10,7 @@ function Blogs() {
       title: "The Role of Payment Gateway Apps in E-Commerce Success",
       category: "News",
       description:
-        "Vivamus elementum semper aenean. Consequat eleifend tellus. Aenean leo ligula, porttitor  Vivamus elementum semper aenean. Consequat eleifend tellus. Aenean leo ligula, porttitor",
+        "Graduation is coming up and you still don’t have a job? Many students wait until they graduate to start looking for a job.",
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ function Blogs() {
       title: "Unlocking Secure Payments With a Payment Gateway",
       category: "Tips & Trick",
       description:
-        "Vivamus elementum semper aenean. Consequat eleifend tellus. Aenean leo ligula, porttitor  Vivamus elementum semper aenean. Consequat eleifend tellus. Aenean leo ligula, porttitor",
+        "Tired of the broke college student stereotype? Well, these days, in the glorious age of the internet… your options for making money are practically endless",
     },
     {
       id: 3,
@@ -26,7 +26,7 @@ function Blogs() {
       title: "The Evolution of Payment Gateway Apps Innovations",
       category: "Insight",
       description:
-        "Vivamus elementum semper aenean. Consequat eleifend tellus. Aenean leo ligula, porttitor  Vivamus elementum semper aenean. Consequat eleifend tellus. Aenean leo ligula, porttitor",
+        "With a new school year here, now’s the perfect time to get serious about searching for and winning scholarships to pay for college! Since many.",
     },
     // Add more blog objects as needed
   ];
