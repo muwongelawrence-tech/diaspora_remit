@@ -39,11 +39,7 @@ function About() {
                   Revolutionizing Digital Payments exploring the Future
                 </h2>
                 <p className="max-w-xs md:max-w-md text-[#161616]">
-                  Revolutionizing Digital Payments exploring the Future Aenean
-                  commodo ligula eget dolor. Aenean massa cum sociis natoque
-                  penatibus et magnis dis parturient montes nascetur ridiculus
-                  mus. Donec quam felis ultricies nec pellentesque eu pretium
-                  quis sem. Nulla consequat massa quis enim.
+                  In the dynamic landscape of digital payments, we are at the forefront of a transformative journey. With a commitment to innovation and a passion for redefining the user experience, our payment gateway is dedicated to exploring the future of financial transactions. As we embrace cutting-edge technology, security, and efficiency, we envision a world where digital payments are not just transactions but seamless and empowering interactions.
                 </p>
 
                 <h2 className="text-xl my-4 text-[#161616]">

@@ -42,8 +42,7 @@ function VisionComponent() {
             <div>
               <h2 className="text-2xl my-2 text-[#161616]">Diaspora vision</h2>
               <p className="max-w-xs  text-[#161616]">
-                Lorem ipsum dolor sit amet consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor. Aenean massa cum sociis.
+              To be the leading force in revolutionizing digital payments, setting new standards for security, efficiency, and user experience.
               </p>
             </div>
           </div>
@@ -57,8 +56,7 @@ function VisionComponent() {
             <div>
               <h2 className="text-2xl my-2 text-[#161616]">Diaspora Mission</h2>
               <p className="max-w-xs  text-[#161616]">
-                Lorem ipsum dolor sit amet consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor. Aenean massa cum sociis.
+                 To empower businesses and individuals by providing seamless and secure payment solutions, fostering financial inclusivity, and enhancing the global economy through innovation and reliability. 
               </p>
             </div>
           </div>
